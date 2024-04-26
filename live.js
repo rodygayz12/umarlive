@@ -1,9 +1,9 @@
 const { spawn } = require('child_process');
 
 // Replace with your video path
-const videoPath = 'path/to/your/video.mp4';
+const videoPath = 'video.mp4';
 // Replace with your Youtube stream key (get from Youtube Studio)
-const youtubeStreamKey = 'YOUR_STREAM_KEY';
+const youtubeStreamKey = 'ptv1-prvf-rwe4-0wx9-99pm';
 
 function startStream() {
   const ffmpegProcess = spawn('ffmpeg', [
